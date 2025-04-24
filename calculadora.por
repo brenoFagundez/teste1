@@ -1,4 +1,25 @@
 programa {
+
+  funcao real soma (real num1, real num2)
+    {
+      retorne num1 + num2
+    }
+
+  funcao real subtracao (real num1, real num2)
+    {
+        retorne num1 - num2
+    }
+
+  funcao real multiplicar (real num1, real num2)
+    {
+      retorne num1 * num2
+    }
+
+  funcao real divisao (real num1, real num2)
+    {
+        retorne num1 / num2
+    }
+    
   funcao inicio() {
 
 
@@ -34,25 +55,7 @@ programa {
     }
   }
 
-  funcao real soma (real num1, real num2)
-    {
-      retorne num1 + num2
-    }
-
-  funcao real subtracao (real num1, real num2)
-    {
-        retorne num1 - num2
-    }
-
-  funcao real multiplicar (real num1, real num2)
-    {
-      retorne num1 * num2
-    }
-
-  funcao real divisao (real num1, real num2)
-    {
-        retorne num1 / num2
-    }
+  
 
 }    
 
